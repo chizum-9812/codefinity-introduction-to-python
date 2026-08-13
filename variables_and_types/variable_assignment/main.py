@@ -1,7 +1,7 @@
 
-item_name = "orange"
-item_price = 1.35
-item_stock_quantity = 99
+item_name = "Eggs"
+item_price = 3.99
+item_stock_quantity = 120
 in_stock = True
 
 # Testing
