@@ -4,9 +4,15 @@ categories = "Candy Aisle, Pasta Aisle"
 
 candy1 = items[0:9]
 candy2 = items[11:20]
-candy3 = items[22:]
+dry_goods = items[22:]
 
 category1 = categories[0:11]
-category2 = 
+category2 = categories[13:]
 
-print(candy3)
+bubblegum_price = 1.50
+chocolate_price = 2
+pasta_price = 5.4
+
+print(f"We have {candy1} for ${bubblegum_price:.2f} in the {category1}")
+print(f"We have {candy2} for ${chocolate_price:.2f} in the {category1}")
+print(f"We have {dry_goods} for ${pasta_price:.2f} in the {category2}")
